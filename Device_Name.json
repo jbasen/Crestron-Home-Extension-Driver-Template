@@ -1,0 +1,67 @@
+{
+    "CrestronSerialDeviceApi": {
+        "DeviceSupport": {
+        },
+        "DeviceSupport2": [],
+		"GeneralInformation": {
+			"DeviceType": "Generic Device",
+			"Manufacturer": "Generic Device Manufacturer",
+			"BaseModel": "Generic 1",
+			"VersionDate": " 2021-03-22 06:56:42.4853 ",
+			"DriverVersion": "1.0.000.0000",
+			"SdkVersion": "6.0.0",
+			"Description": "Generic Device Template",
+			"Guid": "fd3d06cb-2f93-4dac-8b96-f59a3d390bb1",
+			"ExtensionDeviceData": {
+				"IsExtensionDevice": true,
+				"IsMediaDevice": false,
+				"IsMediaSource": false
+			},
+			"SupportedSeries": [ "Generic Device Series" ],
+			"SupportedModels": [ "Generic 1" ]
+		},
+        "Api": {
+			"Communication": {
+				"CommunicationType": 5,
+				"Protocol": -1,
+				"Baud": -1,
+				"Parity": -1,
+				"HwHandshake": -1,
+				"SwHandshake": -1,
+				"DataBits": 0,
+				"StopBits": -1,
+				"Port": 80,
+				"EnableAutoPolling": true,
+				"EnableAutoReconnect": false,
+				"TimeBetweenCommands": 250,
+				"ResponseTimeout": 3000,
+				"WaitForResponse": false,
+				"IpProtocol": 0,
+				"IsUserAdjustable": false,
+				"Authentication": {
+					"Type": "None",
+					"Required": false
+				},
+				"IsSecure": false,
+				"UserAdjustableProperties": [],
+				"DeviceId": 0
+			}
+        },
+		"UserAttributes": [
+			{
+				"TypeName": "Custom",
+				"ParameterId": "DeviceID",
+				"Label": "Device ID",
+				"Description": "ID of your device - Required for communications",
+				"Persistent": true,
+				"RequiredForConnection": "Before",
+				"Data": {
+					"DataType": "String",
+					"Mask": "",
+					"DefaultValue": ""
+				}
+			}
+		],
+        "Dependencies": [""]
+    }
+}

@@ -1,0 +1,16 @@
+{
+	"MainPageTitle": "Home_Extension_Template",
+	"DisplayTextLabel": "Display Text",
+
+	"SettingsPageTitle": "Settings",
+	"SubheaderLabel": "Subheader",
+	"ChecboxLabel": "Checkbox Label",
+	"CheckboxSecondaryLabel": "Checkbox Secondary Label",
+	"TextEntryLabel": "Text Entry Field Label",
+
+	"ButtonSettingsLabel": "Settings",
+	"SaveButtonName": "Save",
+
+	"SequenceTriggeredMethodLabel":  "Template Sequence Trigger"
+
+}

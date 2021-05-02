@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation=" https://prd-use-rad-assets.azurewebsites.net/ExtensionsSchemaDefinition.xsd">
+	<version ver="1.0"/>
+	<tile icon="#icSun" navigation="show:MainPage" showinhomepage="#true" showinroompage="#false"/>
+	<layouts>
+		<layout id="MainPage" title="^MainPageTitle" isdefaultlayout="#true">
+			<controls>
+				<textdisplay id="DisplayTextID" title="^DisplayTextLabel" line1label="{DisplayText}"/>
+				<button id="buttonMainPageSettingsID" label="^ButtonSettingsLabel" navigation="show:SettingsPage" action="command:ShowSettings" />
+			</controls>
+		</layout>
+		<layout id="SettingsPage"  title="^SettingsPageTitle">
+			<controls>
+				<subheader id="SubheaderID" label="^SubheaderLabel" />
+				<controlgroup>
+					<checkbox id="CheckboxID" label="^ChecboxLabel" secondarylabel="^CheckboxSecondaryLabel" value="{CheckboxValue}" />
+					<textentry id="TextEntryID" label="^TextEntryLabel" value="{TextEntryValue}" numericinputonly ="#true" />
+				</controlgroup>
+				<button id="SaveButtonID" label="^SaveButtonName" action="command:SaveSettings" />
+			</controls>
+		</layout>
+	</layouts>
+	<alerts/>
+</uidefinition>
